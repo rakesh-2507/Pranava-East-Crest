@@ -5,8 +5,7 @@ document.getElementById("inquiryForm").addEventListener("submit", function (e) {
   formData.contact = document
     .querySelector("input[name='contact']")
     .value.trim()
-    .replace(/\D/g, "")
-    .substring(0, 10);
+    .replace(/\D/g, "");
   formData.email =
     document.querySelector("input[name='email']").value.trim() ||
     "noemail@greenwich.com";
