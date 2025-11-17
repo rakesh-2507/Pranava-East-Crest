@@ -17,7 +17,7 @@ $occupation = trim($data['occupation'] ?? '');
 $company = trim($data['company'] ?? '');
 $address = trim($data['address'] ?? '');
 
-$sizes = trim($data['sizes'] ? implode(", ", $data['sizes']) : '');
+$sizes = isset($data['sizes']) ? implode(", ", $data['sizes']) : '';
 $min_price = trim($data['min_price'] ?? '');
 $max_price = trim($data['max_price'] ?? '');
 

@@ -25,10 +25,10 @@ document.getElementById("inquiryForm").addEventListener("submit", function (e) {
     formData.sizes.push("6 BHK + HT");
   // Price
   formData.min_price = document
-    .querySelector("input[placeholder='$500,000']")
+    .querySelector("input[name='min_price']")
     .value.trim();
   formData.max_price = document
-    .querySelector("input[placeholder='$1,200,000']")
+    .querySelector("input[name='max_price']")
     .value.trim();
   // HOW DID YOU KNOW — checkboxes
   let sourceList = [];
