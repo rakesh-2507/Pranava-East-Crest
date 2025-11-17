@@ -143,6 +143,9 @@
                 padding: 0.75rem 2rem !important;
                 font-size: 1rem !important;
             }
+            .col-lg-10 {
+                padding: 1rem 1rem !important;
+            }
         }
 
         /* Form Label Styling */
